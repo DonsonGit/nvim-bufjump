@@ -1,8 +1,8 @@
 -- nvim-bufjump
 
 -------------------- VARIABLES -----------------------------
-local fn, cmd, vim, api = vim.fn, vim.cmd, vim, vim.api
-local g, o, wo, bo = vim.g, vim.o, vim.wo, vim.bo
+local _, cmd, vim, api = vim.fn, vim.cmd, vim, vim.api
+local _, _, _, bo = vim.g, vim.o, vim.wo, vim.bo
 local fmt = string.format
 local M = {}
 
